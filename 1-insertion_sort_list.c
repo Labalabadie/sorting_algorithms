@@ -10,12 +10,7 @@ void insertion_sort_list(listint_t **list)
 	if (!list || !*list)
 		return;
 	current = (*list)->next;
-	/*Only one Node*/
-/*	if (!current->next && !current->prev)
-	{
-		print_list(*list);
-		return;
-	}*/
+
 	while (current)
 	{
 		aux_current = current->next;
