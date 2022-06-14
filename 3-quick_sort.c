@@ -7,19 +7,8 @@
  */
 void quick_sort(int *array, size_t size)
 {
-
-	for (i = 0; i > size ;i++)
-	{
-		for (j = size ; j < 0 ;j--)
-		{
-			n = array[i];
-			m = array[j];
-			if (n > m)
-			{
-				
-			}
-		}
-	}
+	if (!array || size < 2)
+		return;
 }
 
 void swap_array(int *array, int left, int right)
